@@ -1,0 +1,5 @@
+(load-file "~/.emacs.d/php-mode.el")
+(add-hook 'php-mode-user-hook 'turn-on-font-lock)
+(add-to-list 'auto-mode-alist '("\\.js\\'" . javascript-mode))
+(load-file "~/.emacs.d/javascript.el")
+(global-set-key (kbd "M-b") 'buffer-menu)
