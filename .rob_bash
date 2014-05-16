@@ -1,0 +1,6 @@
+
+alias emacs='emacs -nw'
+alias install="sudo apt-get install "
+alias sa="sudo /etc/init.d/apache2 restart; sudo /etc/init.d/mysql restart;";
+alias mongod='sudo --fork --logpath /var/log/mongodb.log --logappend'
+alias mongo='/usr/bin/mongo'
